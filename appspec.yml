@@ -34,6 +34,12 @@ hooks:
     - location: scripts/install_new_relic.sh
       timeout: 180
       runas: root
+    - location: scripts/install_new_relic.sh
+
+      timeout: 180
+
+      runas: root
+
 
   #
   # ApplicationStart - you typically use the ApplicationStart
